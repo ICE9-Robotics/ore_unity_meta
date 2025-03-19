@@ -18,3 +18,10 @@ See [MALLARD_INS.md](MALLARD_INS.md)
 
 ### Installation instructions
 See [BLUEROV_INS.md](BLUEROV_INS.md)
+
+## Ardupilot
+### Repository
+- [taarn_ardupilot](https://github.com/ICE9-Robotics/taarn_ardupilot)
+
+### Install and Use
+See [ARDUPILOT_SITL.md](ARDUPILOT_SITL.md)
