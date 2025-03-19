@@ -13,7 +13,7 @@ See [MALLARD_INS.md](MALLARD_INS.md)
 
 ## Bluerov
 ### Repositories
-- [taarn_bluerov_onboard](https://github.com/ICE9-Robotics/taarn_bluerov_onboard)
+- [taarn_bluerov_onboard](https://github.com/ICE9-Robotics/taarn_bluerov_onboard/tree/unity) unity branch
 - [taarn_bluerov](https://github.com/ICE9-Robotics/taarn_bluerov)
 
 ### Installation instructions
