@@ -46,4 +46,3 @@ You can arm the robots (or disarm by setting `value: false`):
 rosservice call /mallard/mavros/cmd/arming "value: true"
 rosservice call /bluerov/mavros/cmd/arming "value: true"
 ```
-Set rc_in
