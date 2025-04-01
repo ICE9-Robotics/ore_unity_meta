@@ -3,11 +3,11 @@
 2. Clone taarn_ardupilot repository
 ```shell
 cd ~
-git clone --recurse-submodules https://github.com/ICE9-Robotics/taarn_ardupilot.git
+git clone --recurse-submodules -b ice9-dev https://github.com/ICE9-Robotics/taarn_ardupilot.git
 ```
 3. Run ardupilot script
 ```shell
-cd ~/ardupilot
+cd ~/taarn_ardupilot
 Tools/environment_install/install-prereqs-ubuntu.sh -y
 . ~/.profile
 ```
@@ -15,13 +15,13 @@ Tools/environment_install/install-prereqs-ubuntu.sh -y
 # Use
 ## Bluerov SITL
 ```shell
-cd ~/ardupilot
+cd ~/taarn_ardupilot
 sim_vehicle.py --console -v ArduSub -f vectored_6dof --out=127.0.0.1:14550 -I0
 ```
 
 ## MallARD SITL
 ```shell
-cd ~/ardupilot
+cd ~/taarn_ardupilot
 sim_vehicle.py --console -v ArduSub -f mallard --out=127.0.0.2:14550 -I1
 ```
 
