@@ -14,7 +14,7 @@ git clone -b unity git@github.com:ICE9-Robotics/taarn_bluerov_onboard.git
 
 3. Install geographic lib dataset
 ```
-wget https://github.com/mavlink/mavros/blob/master/mavros/scripts/install_geographiclib_datasets.sh
+wget https://raw.githubusercontent.com/mavlink/mavros/refs/heads/master/mavros/scripts/install_geographiclib_datasets.sh
 chmod +x install_geographiclib_datasets.sh
 sudo ./install_geographiclib_datasets.sh
 ```
