@@ -9,7 +9,7 @@ cd ~/bluerov_ws/src
 2. Clone all repositories
 ```
 git clone git@github.com:ICE9-Robotics/taarn_bluerov.git
-git clone git@github.com:ICE9-Robotics/taarn_bluerov_onboard.git
+git clone -b unity git@github.com:ICE9-Robotics/taarn_bluerov_onboard.git
 ```
 
 3. Install geographic lib dataset
