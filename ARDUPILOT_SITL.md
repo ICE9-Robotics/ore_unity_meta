@@ -46,3 +46,25 @@ You can arm the robots (or disarm by setting `value: false`):
 rosservice call /mallard/mavros/cmd/arming "value: true"
 rosservice call /bluerov/mavros/cmd/arming "value: true"
 ```
+Set velocity command, MallARD:
+```
+ rostopic pub -r 10 /mallard/cmd_vel geometry_msgs/Twist "linear:
+  x: 10.0
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 0.0"
+```
+Or Bluerov
+```
+ rostopic pub -r 10 /bluerov/cmd_vel geometry_msgs/Twist "linear:
+  x: 10.0
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 0.0"
+```
