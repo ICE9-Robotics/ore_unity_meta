@@ -30,6 +30,19 @@ Note that you may need to rebuild the SITL binary if it says "Vehicle model (mal
 sim_vehicle.py --console -v ArduSub -f mallard --out=127.0.0.2:14550 -I1 -c
 ```
 
+# External Simulator
+By default, Ardupilot SITL will use a simple point mass model for SITL simulations. You can tell the firmware to communicate with an external physics simulation instead. For this case, we use the JSON protocol (https://github.com/ArduPilot/ardupilot/tree/master/libraries/SITL/examples/JSON)[https://github.com/ArduPilot/ardupilot/tree/master/libraries/SITL/examples/JSON]
+
+```shell
+cd ~/taarn_ardupilot
+sim_vehicle.py --console -v ArduSub -f vectored_6dof --model JSON:127.0.0.1 --out=127.0.0.1:14550 -I0
+```
+
+```shell
+cd ~/taarn_ardupilot
+sim_vehicle.py --console -v ArduSub -f mallard --model JSON:127.0.0.2 --out=127.0.0.2:14550 -I1
+```
+
 ## mavros
 mavros launches when you run the `roslaunch` command for each robot. 
 ```
