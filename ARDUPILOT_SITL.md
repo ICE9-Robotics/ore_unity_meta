@@ -31,7 +31,7 @@ sim_vehicle.py --console -v ArduSub -f mallard --out=127.0.0.2:14550 -I1 -c
 ```
 
 # External Simulator
-By default, Ardupilot SITL will use a simple point mass model for SITL simulations. You can tell the firmware to communicate with an external physics simulation instead. For this case, we use the JSON protocol (https://github.com/ArduPilot/ardupilot/tree/master/libraries/SITL/examples/JSON)[https://github.com/ArduPilot/ardupilot/tree/master/libraries/SITL/examples/JSON]
+By default, Ardupilot SITL will use a simple point mass model for SITL simulations. You can tell the firmware to communicate with an external physics simulation instead. For this case, we use the JSON protocol [https://github.com/ArduPilot/ardupilot/tree/master/libraries/SITL/examples/JSON](https://github.com/ArduPilot/ardupilot/tree/master/libraries/SITL/examples/JSON)
 
 ```shell
 cd ~/taarn_ardupilot
