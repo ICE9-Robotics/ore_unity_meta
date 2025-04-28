@@ -4,6 +4,9 @@
 
 ## Installation and Use
 ### ROS
+> ##### Before you start:
+> Delete any existing `source xx_ws/devel/setup.bash` lines from your `~/.bashrc` file and restart your terminal to ensure you have a clean start.
+
 Download the [install_ros.sh](scripts/install_ros.sh) script and execute it from terminal:
 ```shell
 wget https://raw.githubusercontent.com/mavlink/mavros/refs/heads/master/mavros/scripts/install_geographiclib_datasets.sh
