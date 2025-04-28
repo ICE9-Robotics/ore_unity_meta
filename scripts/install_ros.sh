@@ -1,5 +1,3 @@
-```shell
-
 sudo apt install ros-$ROS_DISTRO-mavros
 
 # install dependencies for mavros
@@ -30,4 +28,3 @@ catkin_make
 # source
 source devel/setup.bash
 echo "source ~/unity_ws/devel/setup.bash" >> ~/.bashrc
-```
