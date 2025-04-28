@@ -72,7 +72,7 @@ angular:
 ```
 Or Bluerov
 ```
- rostopic pub -r 10 /bluerov/cmd_vel geometry_msgs/Twist "linear:
+ rostopic pub -r 10 /bluerov/teleop/cmd_vel geometry_msgs/Twist "linear:
   x: 10.0
   y: 0.0
   z: 0.0
