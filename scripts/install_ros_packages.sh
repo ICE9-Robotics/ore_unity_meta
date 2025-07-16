@@ -1,4 +1,5 @@
-sudo apt install ros-$ROS_DISTRO-mavros
+sudo apt-get update
+sudo apt-get install ros-$ROS_DISTRO-mavros
 
 # install dependencies for mavros
 wget https://raw.githubusercontent.com/mavlink/mavros/refs/heads/master/mavros/scripts/install_geographiclib_datasets.sh
