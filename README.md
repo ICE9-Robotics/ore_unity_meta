@@ -3,17 +3,16 @@
 ![data_link](software_data_link.png)
 
 ## Installation and Use
-### ROS
+### ROS packages
 > ##### Before you start:
 > Delete any existing `source xx_ws/devel/setup.bash` lines from your `~/.bashrc` file and restart your terminal to ensure you have a clean start.
 
-Download the [install_ros.sh](scripts/install_ros.sh) script and execute it from terminal:
+#### One-line installation
+Open a terminal and run the following command:
 ```shell
-wget https://raw.githubusercontent.com/mavlink/mavros/refs/heads/master/mavros/scripts/install_geographiclib_datasets.sh
-chmod +x install_ros.sh
-./install_ros.sh
+wget -c https://raw.githubusercontent.com/ICE9-Robotics/ore_unity_meta/refs/heads/main/scripts/install_ros_packages.sh && chmod +x install_ros_packages.sh && ./install_ros_packages.sh
 ```
-Once the script finishes, you should be able to launch the ros packages from the same terminal:
+Once the script finishes, you should find the ROS packages under `~/unity_ws`, and you can launch the ros packages by:
 ```
 roslaunch taarn_mallard_onboard mallard_onboard.launch
 roslaunch taarn_bluerov_onboard bluerov_onboard.launch
